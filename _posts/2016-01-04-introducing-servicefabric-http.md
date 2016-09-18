@@ -25,8 +25,7 @@ It is an ASP.NET 5 middleware that does the actual work:
 * It appends some proxy headers to give the actual service information about the caller and the proxy
 * If the call fails, the middleware validates the error and retries the call if it might be a recoverable error.
 
-You can find more information about this component in the project wiki: 
-https://github.com/c3-ls/ServiceFabric-HttpServiceGateway/wiki
+You can find more information about this component in the [project wiki](https://github.com/c3-ls/ServiceFabric-HttpServiceGateway/wiki).
 
 You would use the library in your Startup.cs and it would look like this:
 
@@ -43,6 +42,5 @@ app.Map("/service", appBuilder =>
 If you use the gateway service exclusively for HTTP based services, it would be a very simple application and you 
 can find an example for this in the samples-folder.
 
-Please feel free to post any questions, issues and feedback as an issue [in the GitHub project]
-(https://github.com/c3-ls/ServiceFabric-Http).
+Please feel free to post any questions, issues and feedback as an issue [in the GitHub project](https://github.com/c3-ls/ServiceFabric-Http).
 
