@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "C3 Engineering Team"
-  avatar           : "bio-photo.jpg"
+  avatar           : "c3-logo.png"
   bio              : "We develop the future of customer loyalty"
   location         : "Austria"
   email            : "engineering@c3-ls.com"
