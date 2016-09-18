@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Engineering @ C3 Loyalty Services"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "C3 Loyalty Services"
+description              : "How we build stuff"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
