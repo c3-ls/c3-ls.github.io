@@ -77,24 +77,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "C3 Engineering Team"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  bio              : "We develop the future of customer loyalty"
+  location         : "Austria"
+  email            : "engineering@c3-ls.com"
+  uri              : "http://www.c3-ls.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/c3-ls"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/company/c3-service-gmbh"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -103,7 +103,7 @@ author:
   twitter          :
   vine             :
   weibo            :
-  xing             :
+  xing             : "https://www.xing.com/companies/c3-servicegmbh"
   youtube          :
 
 
