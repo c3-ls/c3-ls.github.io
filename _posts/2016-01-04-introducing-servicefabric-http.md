@@ -1,5 +1,6 @@
 ---
 title: Introducing our first open-source contribution "ServiceFabric-HttpServiceGateway"
+redirect_from: "/2016/01/04/introducing-our-first-open-source-contribution-servicefabric-httpservicegateway"
 ---
 
 We're happy to announce our first open-source library called "ServiceFabric-HttpServiceGateway"!
