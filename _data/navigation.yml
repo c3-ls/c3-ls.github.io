@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Posts"
-    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
 
   - title: "About C3"
     url: http://www.c3-ls.com
