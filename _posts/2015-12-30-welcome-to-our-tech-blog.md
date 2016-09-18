@@ -1,5 +1,6 @@
 ---
 title: Welcome to our Tech Blog
+redirect_from: "/2015/12/30/welcome-to-our-tech-blog"
 ---
 
 We will use this blog to give you some insights into how we develop our products. 
