@@ -8,6 +8,7 @@ already use the new `project.json` project format.
 project.json files allow you to use a `*` for the "pre-release" part of your version (e.g. `1.0.0-*`). 
 The `dotnet cli` will then replace the `*` with a defined value (e.g. a CI server build number) 
 when you add the `--version-suffix` parameter:
+
 ```
 // this will result in version "1.0.0-rc1"
 dotnet pack -c Release --version-suffix "rc1"
@@ -20,6 +21,7 @@ To make this easier, we created a [bump-version.ps1](https://gist.github.com/cwe
 powershell script that automatically updates these parts.
 
 To explain how it works, let's assume we have a solution with the following projects and dependencies:
+
 ```
 bump-version.ps1
 src\MyLibrary\project.json
@@ -38,7 +40,8 @@ test\MyLibrary.Addon.Tests\project.json
 ```
 
 The following variables must be set in `bump-version.ps1` in order for it to work properly:
-```powershell
+
+```posh
 # The current version will be read from this file
 $projectFile = "src\MyLibrary\project.json"
 
@@ -47,7 +50,8 @@ $packagePrefix = "MyLibrary"
 ```
 That's it. The script can now be called with one of the following parameters and it will automatically update 
 all libraries in the solution.
-```powershell
+
+```posh
 .\bump-version.ps1 -Patch            # results in 1.2.4-*
 .\bump-version.ps1 -Minor            # results in 1.3.0-*
 .\bump-version.ps1 -Major            # results in 2.0.0-*
